@@ -22,17 +22,17 @@
         </div>
 
         <div class="right">
-            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/gopika0719" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
                 <span>Github</span>
             </a>
 
-            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gopika-a-ba745b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin"></i>
                 <span>Linkedin</span>
             </a>
               
-            <a href="mailto:">
+            <a href="mailto:gopika0719@gmail.com">
                 <i class="fa-solid fa-envelope"></i>
                 <span>Email</span>
             </a>
@@ -58,6 +58,11 @@
                       <span>Skills</span>
                     </a>
 
+                    <a href="#projects">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Projects</span>
+                      </a>  
+
                     <a href="#aboutme">
                         <i class="fa-solid fa-pen"></i>
                         <span>About me</span>
@@ -67,6 +72,8 @@
                         <i class="fa-solid fa-envelope"></i>
                         <span>Contact</span>
                       </a>  
+
+                      
 
                 </div>
             </div>
@@ -110,6 +117,24 @@
             </div>
         </section>
 
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="images/project.jpeg" alt="Todo App Project Thumbnail">
+                    <h3>Todo App</h3>
+                    <p>
+                        The <strong>Todo App</strong> is a responsive task management tool built with <strong>React.js</strong>. It features task creation, editing, and deletion with a clean, 
+                        user-friendly interface, demonstrating expertise in React and responsive design.
+                    </p>
+                    <a href="https://gopika0719.github.io/todoapp/" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
+            </div>
+        </section>
+        
+        
+
         <!--Section 3:About me-->
         <section id="aboutme" class="aboutme-section">
             <h2>About me</h2>
@@ -129,6 +154,8 @@
             </div>
           </section>
 
+
+
         <!-- SECTION 4: Contact -->
     <section id="contact" class="contact-section">
         <h2>Contact me</h2>
@@ -137,15 +164,16 @@
           
           
   
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a92026c3-fb8f-4bbb-953e-684302486578">
             <label for="name">Name</label>
-            <input type="text" id="name">
+            <input type="text" name="name" required>
   
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" name="email" required>
   
             <label for="message">Message</label>
-            <textarea id="message" cols="20" rows="10"></textarea>
+            <textarea name="message" required></textarea>
   
             <button type="submit">Send Message</button>
           </form>
